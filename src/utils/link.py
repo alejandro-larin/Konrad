@@ -1,8 +1,8 @@
+#Read the configuration file and create and write to a ".txt" file where the URLs and their names will be placed
 import os
 from colorama import init, Fore, Style
 from utils.clear import ClearConsole
 
-#Lee el archivo de configuracion y crea y escribe en un archivo "".txt" donde se pondran las URL y sus nombres
 
 def read_conf_file(conf_path):
     config = {}

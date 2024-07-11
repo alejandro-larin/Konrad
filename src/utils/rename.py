@@ -1,9 +1,7 @@
-#Sustituye los espacios entre "." o "_" 
-
+#Replaces spaces between "." either "_"
 from utils.formatName import formatNamePdfCapitalize,formatNamePdfRemoveAccents,formatNameSetting
-from time import sleep
-def RenamePdfGuideTeaching(pdf):
 
+def RenamePdfGuideTeaching(pdf):
     name, ext = pdf.rsplit('.', 1)
     replace = {' ': '_', '.': '_'}
     new_name = ''.join(replace.get(c, c) for c in name)
@@ -15,5 +13,5 @@ def RenamePdfCv(pdf):
     replace = {' ': '.', '_': '.'}
     new_name = ''.join(replace.get(c, c) for c in name)
     formatted_name = formatNamePdfRemoveAccents(new_name.lower())
-    fotmatted_name_setting = formatNameSetting(formatted_name)
-    return f"{fotmatted_name_setting}.pdf"
+    formatted_name_setting = formatNameSetting(formatted_name)
+    return f"{formatted_name_setting}.pdf"

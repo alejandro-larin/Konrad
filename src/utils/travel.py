@@ -1,10 +1,9 @@
-#Recorre los archivos y utiliza distintos metodos dependiendo cual de las funciones sean llamadas
+#Go through the files and use different methods depending on which of the functions are called
 import os
 from utils.rename import RenamePdfGuideTeaching , RenamePdfCv
 from utils.link import process_pdfs
 from colorama import Fore
-from utils.formatName import formatNameSetting
-from time import sleep
+from utils.validData import startProccesValid
 ARCH_LINKS = os.path.exists('pdf/all_links.txt')
 
 
@@ -33,6 +32,7 @@ def Cv(DIR, base_url):
     #---------------RENAME---------------
     ArchElements = os.listdir(DIR)
     for el in ArchElements:
+        
         ROUTE= f'{DIR}/{el}'
         NEW_ROUTE = f'{DIR}/{RenamePdfCv(el)}'
         os.rename(ROUTE, NEW_ROUTE)
@@ -41,3 +41,5 @@ def Cv(DIR, base_url):
     year= input(f'{Fore.MAGENTA}Write the year of PDF: {Fore.RESET}')
     process_pdfs(DIR,base_url,abbreviation,year)
     #---------------INVALID NAMES--------------
+    startProccesValid()
+    input('Press Enter to continue... ')

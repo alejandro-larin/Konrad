@@ -1,5 +1,4 @@
-# Esta funcion se utiliza para el menu y limpiar la consola en cualquier sistema operativo
-
+# This function is used for the menu and clearing the console in any operating system
 from platform import system
 
 import os 

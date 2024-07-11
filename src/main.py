@@ -1,4 +1,4 @@
-#Este contiene la estrucutra principal del menu para que el usuario elija la funcionalidad que desea
+#This contains the menu structure for the user to choose the functionality they want
 import os
 from time import sleep
 from utils.travel import GuideTeaching,Cv

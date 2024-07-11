@@ -1,4 +1,4 @@
-#Se utiliza para cambiar las letras como capitalizar o quitar tildes todo lo que tenga que ver con el cambio del nombre del archivo. (Vinculado con "rename.py")
+#It is used to change letters such as capitalization or removing accent marks, anything that has to do with changing the file name. (Linked with "rename.py")
 import unicodedata
 from unidecode import unidecode
 

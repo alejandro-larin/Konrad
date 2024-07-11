@@ -1,5 +1,4 @@
-# La clase menu llama alertas y submenus para ahorrar lineas de codigo o mantener mas limpio el main
-
+# The menu class calls alerts and submenus to save lines of code or keep the main cleaner
 from colorama import init, Fore, Style
 from time import sleep
 import os
@@ -74,7 +73,4 @@ f'''
 ⠸⣯⣉⡁⠘⣉⡽⠃⠀⠀⠀⠀⠀⣼⠹⡄⢿⣷⣤⡀⠀⠀⠀⠀⠀⠀⠙⢦⠀⠉⠉⠉⠁⠀⢀⣼⠋⠀⠀⠀⢠⣿⣿⠀⠀⢰⡇⠀⠀⠀
 ⠀⠀⣸⣡⠾⣿⣷⠄⠀⠀⠀⠀⢰⡏⠀⢱⡾⠀⠈⢿⣷⣤⣀⠀⠀⠀⠀⣸⢷⣤⣄⣀⣀⣤⡿⠏⠀⠀⠀⢠⣿⣿⡇⠀⠀⡼⠀⠀⠀⠀
 ⠀⠀⠙⠁⠀⠈⠁⠀⠀⠀⠀⠀⣿⠁⠀⢸⠙⣆⡀⠈⣿⣿⡟⠙⠂⠀⠀⡟⠀⣿⣿⣿⡿⢻⡀⠀⠀⠀⠀⠀⠹⣿⠃⠀⣼⠁⠀⠀⡀⠀
-⠀⠀⠀⠀⠀⠀⢠⡶⠀⠀⠀⠀⣷⠀⢧⣸⠀⠘⣧⠀⣿⡟⠀⠀⠀⠀⣸⠃⡀⢡⠀⠉⠀⡼⢳⡀⠀⠀⠀⠀⠀⠿⡄⢠⠇⠀⣠⠎⠀⠀
-⠀⠀⠀⠀⠀⠀⠘⠁⠀⠀⠀⣼⠋⡀⠀⢉⡷⢄⡙⢷⣿⠁⠀⠀⠀⢀⣿⠀⣨⢿⣦⡀⢰⠃⣀⣷⡀⠀⠀⠀⠀⠀⠘⣏⣠⣞⡟⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠁⠀⣸⠁⣤⠽⣾⠇⠀⠀⠀⠀⣼⣿⣀⣿⡘⢿⣷⣿⣾⠁⣿⣷⡀⠀⠀⠀⠀⠀⢨⡟⠀⠇⠀⠀⠀
-              ''')
+''')
